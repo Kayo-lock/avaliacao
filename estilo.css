@@ -5,3 +5,129 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+
+header{
+    display: flex;
+    background-color: rgb(10, 70, 10);
+    padding: 15px;
+    color: white;
+    font-style: italic;
+    gap: 1150px;
+
+}
+header > nav{
+    font-style: normal;
+    
+}
+
+header > nav > ul{
+    display: flex;
+    justify-content: right;
+    gap: 12px;
+    list-style-type: none;
+    padding-top: 12px;
+}
+
+#pagina{
+    display: flex;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#promocoes{
+    flex: 0.8;
+    flex-wrap: wrap;
+    
+}
+
+.produtos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.label{
+    border: 1px solid rgb(10, 70, 10) ;
+    background-color: rgb(10, 70, 10) ;
+    color: white;
+    text-align: center;
+}
+
+
+#anuncios{
+    flex: 0.2;
+    border: 1px solid rgb(160, 157, 157);
+    background-color: rgb(160, 157, 157);
+    width: 300px;
+    padding: 70px 10px 10px  10px;
+}
+
+#anuncios > h3{
+    text-align: center;
+}
+
+#anuncios > h3 > p{
+    text-align: center;
+}
+
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.titulo{
+   font-weight: bold;
+   display: flex;
+}
+
+aside{
+    border: 1px solid gainsboro;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    background-color:rgb(10, 70, 10) ; 
+    color: white;
+    gap: 1000px;
+    padding-top: 10px;
+}
+
+address{
+    font-style: normal;
+}
+
+aside > ul{
+    list-style-type: none;
+}
+
+h4{
+    font-style: italic
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        font-size: 25px;
+    }
+    #pagina{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+}
